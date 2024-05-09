@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f1c5c5c132.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id>
+                <img src="images/logo.jpg" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Prakash</span><br>from Hyderabad</h1>
+                <h6><a href="https://www.linkedin.com/in/prakashthurai/">Let's Connect On <i class="fa-brands fa-linkedin fa-lg"></i> </a></h6>
+            </div>
+        </div>
+    </div>
+    <!-------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/mebg.jpg" class="me" width="450px" height="450px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Hi there! I'm Prakash Thurai, a third-year student pursuing a Electronics and Computer Engineering(ECM) degree at
+                        Sreenidhi Institution of Science and Technology(SNIST). I'm passionate about Full Stack Development ,problem solving and
+                        I'm dedicated to constantly expanding my knowledge and skills in this area.</p>
+                        <p>I'm honored to hold the position of Documentation Lead within the vibrant technical club of Student's Developer's
+                        Community(SDC) at SNIST. My primary responsibility is to manage and maintain all documentation related to the club
+                        activities, projects, and events. This includes creating documentation for club events, workshops, hackathons and
+                        seminars. This may include agendas, event summaries, and any materials used during these activities</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab1" id="skills">
+                            <ul>
+                                <li><span>web developer</span><br>web app development</li>
+                                <li><span>FrontEnd</span><br>Html css javascript</li>
+                                <li><span>Backend</span><br>node.js,Express.js</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship code alpha</span><br>web app development 1-month</li>
+                                <li><span>Bharat Intern</span><br>FrontEnd 1-month</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Btech</span><br>Snist ECM 2021-2025<br>CGPA-9.04</li>
+                                <li><span>Inter</span><br>Narayana junior college<br>GRADE-97.8%</li>
+                                <li><span>School</span><br>PHS<br>GPA-10</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------services-------------->
+    
+<!------portfolio--->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/worksdc.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Documentation Lead</h3>
+                        <p>I'm honored to hold the position of Documentation Lead within the vibrant technical club of Student's Developer's
+                        Community(SDC) at SNIST. My primary</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Frontend-Development.jpg" alt="">
+                    <div class="layer">
+                        <h2>FrontEnd Developer</h2>
+                        <p>Front-end developer adept in HTML, CSS, and JavaScript, with foundational skills in MongoDB, React, and Node.js,
+                            seeking
+                            to enhance web experiences.</p>
+                       
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/placecom.jpg">
+                    <div class="layer">
+                        <h2>Corporate-Lead</h2>
+                        <p>In the college placement cell, serving as the corporate lead, I bridge students and organizations, ensuring numerous
+                            successful placements to the students.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+            <!-------projects---->
+            <div id="services">
+                <div class="conatiner">
+                    <h1 class="sub-title">My Projects</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Autism Disorder - Web Development and Machine Learing</h2>
+                            <p>Utilizing Machine Learning for Autism Detection: A Website Integration Supporting Affected
+                                Individuals and Promoting
+                                Awareness Through
+                                Donation Opportunities within an Organization</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>Enhancing Multilingual Access to Wikipedia - Front-End</h2>
+                            <p>The project aims to improve multilingual access to Wikipedia through a user-friendly front-end
+                                interface, enhancing
+                                navigation and readability for users of various languages. It focuses on incorporating
+                                language-specific features and
+                                design elements to create a more inclusive and accessible browsing experience.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Notes making using REACT</h2>
+                            <p>The interface will implement CRUD (Create, Read, Update, Delete) operations for notes using React,
+                                providing seamless
+                                interactions for users to perform these actions on their notes.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!------achievements----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pepsico.jpg" alt="">
+                    <div class="layer">
+                        <h3>Pepsico Campus Conclave-Ideathon</h3>
+                        <p>Selected among the top 21 students from a pool of 1800 candidates, I have been nominated to represent our college at the
+                        PepsiCo Campus
+                        Conclave</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hashitout.jpg" alt="">
+                    <div class="layer">
+                        <h2>SIH Hackathon Runner-up</h2>
+                        <p>Secured the runner-up position in the college-level Smart India Hackathon</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/placecom.jpg">
+                    <div class="layer">
+                        <h2>Corporate-Lead</h2>
+                        <p>In the college placement cell, serving as the corporate lead, I bridge students and
+                            organizations, ensuring numerous
+                            successful placements to the students.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+<!-------contactinfo----->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>prakashturai707@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>9963422150</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/prakashthurai/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-x-twitter fa-lg"></i></a>
+                            </div>
+                            <a href="images/Prakash_resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form action="">
+                                <input type="text" name="Name" placeholder="Your Name" required id="adjust">
+                                <input type="email" name="Email" placeholder="Your Email" required id="adjust">
+                                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Prakash@2131</p>
+
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab1");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab1");
+    }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>  
+    
+</body>
+</html>
